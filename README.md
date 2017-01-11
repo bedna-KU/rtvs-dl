@@ -3,6 +3,11 @@
 Download videos from RTVS archive
 https://www.rtvs.sk/televizia/archiv
 
+### Dependency
+ffmpeg
+
+curl
+
 ### Instalation
 git clone https://github.com/bedna-KU/rtvs-dl.git
 
