@@ -1,6 +1,6 @@
 echo "Dowload page: "$1
 # Download page and extract playlist
-playlist=$(curl -s $1 | grep -i https://www.rtvs.sk/json/archive)
+playlist=$(curl -s $1 | grep -i ://www.rtvs.sk/json/archive)
 # Playlist to array
 playlist_array=($playlist)
 # Extract playlist link
