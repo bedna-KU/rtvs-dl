@@ -8,7 +8,7 @@ playlist_link=$(echo ${playlist_array[1]} | sed 's/\"//g')
 echo "Download playlist: "$playlist_link
 # Extract line with link to stream
 stream_tmp="$(curl -s $playlist_link)"
-stream_name=$(echo "${stream_tmp%x}" | grep "file\" :" | head -1)
+stream_name=$(echo "${stream_tmp%x}" | grep "file\" :" | grep smil | head -1)
 stream_title=$(echo "${stream_tmp%x}" | grep "title")
 # Stream link name to array
 stream_name_array=($stream_name)
