@@ -22,7 +22,7 @@ alebo
 * Daj skriptu práva na spustenie
 
 ### Spustenie
-rtvs-dl.sh odkaz_z_archivu
+./rtvs-dl.sh odkaz_z_archivu
 
 ### Licencia:
 [GNU GPLv3](http://www.gnu.org/licenses/gpl-3.0.html)
