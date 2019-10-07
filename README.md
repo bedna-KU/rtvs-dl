@@ -24,7 +24,7 @@ or
 * Make script executable
 
 ### Run
-rtvs-dl.sh link_from_archive
+./rtvs-dl.sh link_from_archive
 
 ### Licence:
 [GNU GPLv3](http://www.gnu.org/licenses/gpl-3.0.html)
