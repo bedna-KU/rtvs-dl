@@ -4,21 +4,19 @@ Sťahovanie videí z RTVS archívu
 https://www.rtvs.sk/televizia/archiv
 
 ### Závislosti
-ffmpeg
-
-curl
+* `bash`
+* `curl`
+* `ffmpeg`
 
 ### Inštalácia
-git clone https://github.com/bedna-KU/rtvs-dl.git
+`git clone https://github.com/bedna-KU/rtvs-dl.git`
 
 alebo
 
-* Stiahni https://github.com/bedna-KU/rtvs-dl/archive/master.zip
-
-* Rozbaľ
+Stiahni a rozbaľ https://github.com/bedna-KU/rtvs-dl/archive/master.zip
 
 ### Spustenie
-./rtvs-dl.sh odkaz_z_archivu
+`./rtvs-dl.sh `_`odkaz_z_archivu`_
 
 ### Docker
 `docker run --rm -it -v $(pwd):/workdir -w /workdir verglor/rtvs-dl `_`odkaz_z_archivu`_

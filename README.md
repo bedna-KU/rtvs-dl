@@ -5,22 +5,21 @@ https://www.rtvs.sk/televizia/archiv
 
 Nápoveda v Slovenčine https://github.com/bedna-KU/rtvs-dl/blob/master/READMEsk.md
 
-### Dependency
-ffmpeg
-
-curl
+### Dependencies
+* `bash`
+* `curl`
+* `ffmpeg`
 
 ### Instalation
-git clone https://github.com/bedna-KU/rtvs-dl.git
+`git clone https://github.com/bedna-KU/rtvs-dl.git`
 
 or
 
-* download https://github.com/bedna-KU/rtvs-dl/archive/master.zip
+Download & unzip https://github.com/bedna-KU/rtvs-dl/archive/master.zip
 
-* Unpack
 
 ### Run
-./rtvs-dl.sh link_from_archive
+`./rtvs-dl.sh `_`link_from_archive`_
 
 ### Docker
 `docker run --rm -it -v $(pwd):/workdir -w /workdir verglor/rtvs-dl `_`link_from_archive`_
