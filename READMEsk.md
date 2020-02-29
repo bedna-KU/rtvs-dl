@@ -20,5 +20,8 @@ alebo
 ### Spustenie
 ./rtvs-dl.sh odkaz_z_archivu
 
+### Docker
+`docker run --rm -it -v $(pwd):/workdir -w /workdir verglor/rtvs-dl `_`odkaz_z_archivu`_
+
 ### Licencia:
 [GNU GPLv3](http://www.gnu.org/licenses/gpl-3.0.html)
