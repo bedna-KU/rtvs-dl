@@ -16,7 +16,7 @@ alebo
 Stiahni a rozbaľ https://github.com/bedna-KU/rtvs-dl/archive/master.zip
 
 ### Spustenie
-`./rtvs-dl.sh `_`odkaz_z_archivu`_
+`bash rtvs-dl.sh `_`odkaz_z_archivu`_
 
 ### Docker
 `docker run --rm -it -v $(pwd):/workdir -w /workdir verglor/rtvs-dl `_`odkaz_z_archivu`_
