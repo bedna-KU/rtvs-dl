@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 echo "Dowload page: "$1
 # Download page and extract playlist
 playlist=$(curl -s $1 | grep -i //www.rtvs.sk/json/archive)
