@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # If link is empty exit
 [ -z "$1" ] && echo "Link is empty" && exit
-echo "Dowload page: "$1
+echo "Download page: "$1
 # Download page and extract playlist
 playlist=$(curl -s $1 | grep -i //www.rtvs.sk/json/archive)
 echo "Playlist:" $playlist
